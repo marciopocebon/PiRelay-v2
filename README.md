@@ -18,7 +18,7 @@ PIRELAY VERSION 2  for RaspberryPi to control Relays.
 
 ⦁	 Open Terminal and download the code by writing:      
 
-                   ` git clone https://github.com/sbcshop/PiRelay-v2.git `
+`git clone https://github.com/sbcshop/PiRelay-v2.git`
                     
 
 ⦁	 Your code will be downloaded to '/home/pi' directory. Use 'ls' command to check the list of   directories.
@@ -28,15 +28,15 @@ PIRELAY VERSION 2  for RaspberryPi to control Relays.
                          cd PiRelay2
                          
 ⦁	You can turn on and off the relays using the GUI. 
- Run the GUI using codes.
+
+Run the GUI using codes.
              
-             
-                       A.   open the PiRelay2_GUI.py file.
-                       
-                                                             OR
-                                                             
-                       B.    using codes: 
-                       
-                                        sudo python3 PiRelay2_GUI.py
+  A.   Run the PiRelay2_GUI.py file from idle.
+                               
+  OR
+         
+  B.    using codes: 
+                               
+                    `sudo python3 PiRelay2_GUI.py`
                                         
                                                          
