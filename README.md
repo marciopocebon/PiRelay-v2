@@ -38,5 +38,25 @@ Run the GUI using codes.
   B.    Using terminal: 
  
  `sudo python3 PiRelay2_GUI.py`
+ 
+ ## LCD
+ 
+ 4.3inch, 800x480, Capacitive Touch Screen LCD, HDMI interface, Supports Multi mini-PCs, Multi Systems
+
+## Steps to interface LCD-
+
+⦁	Open and modify the /boot/config.txt file which is in the root directory(BOOT) of SD card.
+
+ Append following lines to config.txt file.
+ 
+                                                max_usb_current=1
+                                                hdmi_group=2
+                                                hdmi_mode=87
+                                                hdmi_cvt 800 480 60 6 0 0 0
+                                                
+⦁	 Connect Touch interface of LCD to USB port of Raspberry Pi
+
+⦁	Connect HDMI interface of LCD to HDMI port of Raspberry Pi
+
                                         
                                                          
