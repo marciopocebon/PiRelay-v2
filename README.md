@@ -35,8 +35,8 @@ Run the GUI using codes.
                                
   OR
          
-  B.    using codes: 
-                               
-                    `sudo python3 PiRelay2_GUI.py`
+  B.    Using terminal: 
+ 
+ `sudo python3 PiRelay2_GUI.py`
                                         
                                                          
