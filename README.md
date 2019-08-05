@@ -25,7 +25,7 @@ PIRELAY VERSION 2  for RaspberryPi to control Relays.
 
 ⦁	 Go to 'PiRelay2' directory using:
 
-                         cd PiRelay2
+`cd PiRelay2`
                          
 ⦁	You can turn on and off the relays using the GUI. 
 
